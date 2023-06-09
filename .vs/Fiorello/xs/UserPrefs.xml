@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="{F911F83E-21EA-4FE7-AAB5-F271D8365750}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fiorello/Areas/Admin/Controllers/SliderInfoController.cs">
+    <Files>
+      <File FileName="Fiorello/Services/Interfaces/ISliderService.cs" Line="15" Column="61" />
+      <File FileName="Fiorello/Services/SliderService.cs" Line="44" Column="35" />
+      <File FileName="Fiorello/Areas/Admin/Controllers/SliderController.cs" Line="122" Column="52" />
+      <File FileName="Fiorello/Areas/Admin/Controllers/SliderInfoController.cs" Line="95" Column="39" />
+      <File FileName="Fiorello/Services/Interfaces/ISliderInfoService.cs" Line="14" Column="34" />
+      <File FileName="Fiorello/Services/SliderInfoService.cs" Line="40" Column="76" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fiorello" expanded="True">
+            <Node name="Fiorello" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True">
+                    <Node name="SliderInfoController.cs" selected="True" />
+                  </Node>
+                  <Node name="ViewModels" expanded="True">
+                    <Node name="Category" expanded="True" />
+                    <Node name="Product" expanded="True" />
+                    <Node name="Slider" expanded="True" />
+                    <Node name="SliderInfo" expanded="True" />
+                  </Node>
+                  <Node name="Views" expanded="True">
+                    <Node name="Category" expanded="True" />
+                    <Node name="Product" expanded="True" />
+                    <Node name="Shared" expanded="True" />
+                    <Node name="Slider" expanded="True" />
+                    <Node name="SliderInfo" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="ViewComponents" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components " expanded="True">
+                    <Node name="Header" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Fiorello PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+</Properties>
