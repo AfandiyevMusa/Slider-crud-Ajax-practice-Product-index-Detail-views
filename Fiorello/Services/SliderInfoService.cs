@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Fiorello.Services
 {
-	public class SliderInfoService:ISliderInfoService
+	public class SliderInfoService : ISliderInfoService
 	{
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _env;
@@ -16,6 +16,22 @@ namespace Fiorello.Services
         {
             _context = context;
             _env = env;
+        }
+
+        public async Task<bool> ChangeStatusAsync(SlidersInfo sliderInfo)
+        {
+            if (sliderInfo.Status && await GetCountAsync() != 1)
+            {
+                sliderInfo.Status = false;
+            }
+            else
+            {
+                sliderInfo.Status = true;
+            }
+
+            await _context.SaveChangesAsync();
+
+            return sliderInfo.Status;
         }
 
         public async Task DeleteAsync(int id)
@@ -62,6 +78,11 @@ namespace Fiorello.Services
         public async Task<SlidersInfo> GetByIdAsync(int? id)
         {
             return await _context.slidersInfos.FirstOrDefaultAsync(m => m.Id == id);
+        }
+
+        public async Task<int> GetCountAsync()
+        {
+            return await _context.slidersInfos.Where(m => m.Status).CountAsync();
         }
 
         public SliderInfoDetailVM GetMappedDatasAsync(SlidersInfo dbSliderInfo)

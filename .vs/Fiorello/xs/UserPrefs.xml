@@ -1,15 +1,9 @@
 ﻿<Properties StartupConfiguration="{F911F83E-21EA-4FE7-AAB5-F271D8365750}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Fiorello/Areas/Admin/Controllers/SliderInfoController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fiorello/wwwroot/admin/assets/js/sliderstatus.js">
     <Files>
-      <File FileName="Fiorello/Services/Interfaces/ISliderService.cs" />
-      <File FileName="Fiorello/Services/SliderService.cs" />
-      <File FileName="Fiorello/Areas/Admin/Controllers/SliderController.cs" />
-      <File FileName="Fiorello/Areas/Admin/Controllers/SliderInfoController.cs" Line="95" Column="39" />
-      <File FileName="Fiorello/Services/Interfaces/ISliderInfoService.cs" />
-      <File FileName="Fiorello/Services/SliderInfoService.cs" />
+      <File FileName="Fiorello/Areas/Admin/Views/SliderInfo/Index.cshtml" Line="60" Column="141" />
+      <File FileName="Fiorello/wwwroot/admin/assets/js/sliderstatus.js" Line="10" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,37 +12,31 @@
             <Node name="Fiorello" expanded="True">
               <Node name="Areas" expanded="True">
                 <Node name="Admin" expanded="True">
-                  <Node name="Controllers" expanded="True">
-                    <Node name="SliderInfoController.cs" selected="True" />
-                  </Node>
-                  <Node name="ViewModels" expanded="True">
-                    <Node name="Category" expanded="True" />
-                    <Node name="Product" expanded="True" />
-                    <Node name="Slider" expanded="True" />
-                    <Node name="SliderInfo" expanded="True" />
-                  </Node>
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="ViewModels" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="Category" expanded="True" />
-                    <Node name="Product" expanded="True" />
-                    <Node name="Shared" expanded="True" />
                     <Node name="Slider" expanded="True" />
                     <Node name="SliderInfo" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True">
                 <Node name="Interfaces" expanded="True" />
               </Node>
-              <Node name="ViewComponents" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components " expanded="True">
-                    <Node name="Header" expanded="True" />
+              <Node name="Views">
+                <Node name="Shared">
+                  <Node name="Components">
+                    <Node name="Footer" expanded="True" />
                   </Node>
                 </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="admin" expanded="True">
+                  <Node name="assets" expanded="True">
+                    <Node name="js" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="js" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -60,4 +48,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

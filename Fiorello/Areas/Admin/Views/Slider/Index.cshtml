@@ -54,7 +54,7 @@
                             @slider.CreateDate
                         </td>
                         <td>
-                            <div class="status-slider @(slider.Status ? "status-true":"status-false")"></div>
+                            <div data-id="@slider.Id" class="status-slider @(slider.Status ? "status-true":"status-false")"></div>
                         </td>
                         <td>
                             <a asp-action="Detail" asp-route-id="@slider.Id" class="btn btn-primary btn-rounded btn-fw">Detail</a>

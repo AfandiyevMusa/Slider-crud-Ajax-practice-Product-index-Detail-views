@@ -13,6 +13,9 @@ namespace Fiorello.Services.Interfaces
         //Task CreateAsync(List<IFormFile> images);
         Task DeleteAsync(int id);
         //Task EditAsync(Slider slider, IFormFile newImage);
+        Task<List<Slider>> GetAllByStatusAsync();
+        Task<bool> ChangeStatusAsync(Slider slider);
+        Task<int> GetCountAsync();
     }
 }
 

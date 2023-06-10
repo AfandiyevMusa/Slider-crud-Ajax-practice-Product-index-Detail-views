@@ -97,6 +97,32 @@ namespace Fiorello.Services
             }
         }
 
+        public Task<List<Slider>> GetAllByStatusAsync()
+        {
+            return _context.sliders.Where(m => m.Status).ToListAsync();
+        }
+
+        public async Task<int> GetCountAsync()
+        {
+            return await _context.sliders.Where(m => m.Status).CountAsync();
+        }
+
+        public async Task<bool> ChangeStatusAsync(Slider slider)
+        {
+            if (slider.Status && await GetCountAsync() != 1)
+            {
+                slider.Status = false;
+            }
+            else
+            {
+                slider.Status = true;
+            }
+
+            await _context.SaveChangesAsync();
+
+            return slider.Status;
+        }
+
         //public async Task EditAsync(Slider slider, IFormFile newImage)
         //{
         //    string oldPath = Path.Combine(_env.WebRootPath + "/img/" + slider.Image);

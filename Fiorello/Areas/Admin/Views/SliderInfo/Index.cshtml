@@ -4,18 +4,18 @@
 }
 
 <style>
-    .status-slider {
+    .status-sliderInfo {
         width: 25px;
         height: 25px;
         border-radius: 50%;
         cursor: pointer;
     }
 
-    .status-true {
+    .status-trueInfo {
         background-color: greenyellow;
     }
 
-    .status-false {
+    .status-falseInfo {
         background-color: red;
     }
 </style>
@@ -57,7 +57,7 @@
                             @sliderInfo.Title
                         </td>
                         <td>
-                            <div class="status-slider @(sliderInfo.Status ? "status-true":"status-false")"></div>
+                            <div data-id="@sliderInfo.Id" class="status-sliderInfo @(sliderInfo.Status ? "status-trueInfo":"status-falseInfo")"></div>
                         </td>
                         <td>
                             @sliderInfo.CreateDate

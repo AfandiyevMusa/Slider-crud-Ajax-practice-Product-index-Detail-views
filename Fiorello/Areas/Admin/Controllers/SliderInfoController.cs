@@ -155,6 +155,16 @@ namespace Fiorello.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpPost]
+        public async Task<IActionResult> ChangeStatus(int? id)
+        {
+            if (id is null) return BadRequest();
+            SlidersInfo dbSliderInfo = await _sliderInfoService.GetByIdAsync(id);
+            if (dbSliderInfo is null) return NotFound();
+
+            return Ok(await _sliderInfoService.ChangeStatusAsync(dbSliderInfo));
+        }
     }
 }
 

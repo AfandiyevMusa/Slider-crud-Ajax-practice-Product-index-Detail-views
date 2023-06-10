@@ -105,8 +105,8 @@
       "PackagePath": "staticwebassets/admin/assets/js/main.js"
     },
     {
-      "Id": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/admin/assets/js/slider.js",
-      "PackagePath": "staticwebassets/admin/assets/js/slider.js"
+      "Id": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/admin/assets/js/sliderstatus.js",
+      "PackagePath": "staticwebassets/admin/assets/js/sliderstatus.js"
     },
     {
       "Id": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/admin/assets/scss/Readme.txt",
@@ -1759,10 +1759,6 @@
     {
       "Id": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/img/e3b96ad0-36f7-4c8d-b73a-414daa602695_10fcc599-47d7-443e-8732-6fbb219350c9_blog-feature-img-1.jpg",
       "PackagePath": "staticwebassets/img/e3b96ad0-36f7-4c8d-b73a-414daa602695_10fcc599-47d7-443e-8732-6fbb219350c9_blog-feature-img-1.jpg"
-    },
-    {
-      "Id": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/img/efed0a0c-e4d2-46ae-8c48-0b8f411ad11f_a4543f10-6a0e-4483-8a8d-af05497bfeb1_h3-slider-background.jpg",
-      "PackagePath": "staticwebassets/img/efed0a0c-e4d2-46ae-8c48-0b8f411ad11f_a4543f10-6a0e-4483-8a8d-af05497bfeb1_h3-slider-background.jpg"
     },
     {
       "Id": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/img/favicon.png",

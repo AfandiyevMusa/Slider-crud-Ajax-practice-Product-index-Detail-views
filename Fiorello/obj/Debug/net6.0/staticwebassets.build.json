@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0VxcJviecGJ+lF5ctGOe7gMtEZlrue5JfGtrtNrQ7i4=",
+  "Hash": "LsQLwIQVzJ3xfAExU2j51TNqiZREUmpCzg/SjTWKPNU=",
   "Source": "Fiorello",
   "BasePath": "_content/Fiorello",
   "Mode": "Default",
@@ -459,12 +459,12 @@
       "OriginalItemSpec": "wwwroot/admin/assets/js/main.js"
     },
     {
-      "Identity": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/admin/assets/js/slider.js",
+      "Identity": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/admin/assets/js/sliderstatus.js",
       "SourceId": "Fiorello",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/",
       "BasePath": "_content/Fiorello",
-      "RelativePath": "admin/assets/js/slider.js",
+      "RelativePath": "admin/assets/js/sliderstatus.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,7 +473,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/admin/assets/js/slider.js"
+      "OriginalItemSpec": "wwwroot/admin/assets/js/sliderstatus.js"
     },
     {
       "Identity": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/admin/assets/scss/Readme.txt",
@@ -7495,23 +7495,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/e3b96ad0-36f7-4c8d-b73a-414daa602695_10fcc599-47d7-443e-8732-6fbb219350c9_blog-feature-img-1.jpg"
-    },
-    {
-      "Identity": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/img/efed0a0c-e4d2-46ae-8c48-0b8f411ad11f_a4543f10-6a0e-4483-8a8d-af05497bfeb1_h3-slider-background.jpg",
-      "SourceId": "Fiorello",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/",
-      "BasePath": "_content/Fiorello",
-      "RelativePath": "img/efed0a0c-e4d2-46ae-8c48-0b8f411ad11f_a4543f10-6a0e-4483-8a8d-af05497bfeb1_h3-slider-background.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/efed0a0c-e4d2-46ae-8c48-0b8f411ad11f_a4543f10-6a0e-4483-8a8d-af05497bfeb1_h3-slider-background.jpg"
     },
     {
       "Identity": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello/Fiorello/wwwroot/img/favicon.png",

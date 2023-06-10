@@ -162,9 +162,8 @@ namespace Fiorello.Areas.Admin.Controllers
             if (id is null) return BadRequest();
             Slider dbSlider = await _sliderService.GetByIdAsync(id);
             if (dbSlider is null) return NotFound();
-            dbSlider.Status = !dbSlider.Status;
-            await _context.SaveChangesAsync();
-            return Ok(); 
+            
+            return Ok(await _sliderService.ChangeStatusAsync(dbSlider)); 
         }
     }
 }

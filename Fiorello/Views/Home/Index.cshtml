@@ -9,29 +9,7 @@
 
     <!-- SLIDER START -->
 
-    <section id="slider">
-        <div class="owl-carousel slider">
-            @foreach (var images in Model.sliders)
-            {
-                <div> <img src="~/img/@images.Image" alt=""> </div>
-            }
-        </div>
-        <div class="container context pl-lg-5 ml-lg-3">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="text">
-                        @Html.Raw(Model.slidersInfos.Title)
-                        <p class="text-black-50 d-none d-sm-block">
-                            @Model.slidersInfos.Info
-                        </p>
-                    </div>
-                    <div class="img">
-                        <img src="~/img/h2-sign-img.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @await Component.InvokeAsync("Slider");
 
     <!-- SLIDER END -->
     <!-- PRODUCTS START -->
